@@ -1,0 +1,14 @@
+syntax="proto2";
+
+package com.test.netty.protobuf;
+
+option optimize_for = SPEED;
+option java_package = "test06";
+option java_outer_classname = "DateInfo06";
+
+message Student{
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
+
